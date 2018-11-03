@@ -1,3 +1,11 @@
+NOTE: With the release of normalizr v3.3.0 it's recommended that you avoid this shim and use app.import instead
+
+```js
+app.import('node_modules/normalizr/dist/normalizr.amd.js', {
+  using: [{transformation: 'amd', as: 'normalizr'}]
+});
+```
+
 # ember-cli-normalizr-shim
 
 [![Travis][ci-img]][ci-url] [![NPM][npm-img]][npm-url] ![Ember][ember-img]
